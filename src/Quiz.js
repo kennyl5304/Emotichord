@@ -8,88 +8,105 @@ import sad from './Assets/big dasf.mp3';
 import bgm from './Assets/underdogs.mp3';
 
 const Quiz = () => {
-    const [score, setScore] = useState(0);
+    const [depressionScore, setDepressionScore] = useState(0);
+    const [mainstreamScore, setMainstreamScore] = useState(0);
+    const [musicScore, setMusicScore] = useState(0);
+    const [emotionScore, setEmotionScore] = useState(0);
+    const [ageScore, setAgeScore] = useState(0);
+    const [genreScore, setGenreScore] = useState({pop: 0, rock: 0, hiphopelectronica: 0});
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
     const questions = data[currentQuestionIndex];
     //const [questions, setQuestions] = useState(data[currentQuestionIndex]);
     const [isCompleted, setIsCompleted] = useState(false);
     
-    console.log(score);
+    console.log(depressionScore);
     const handleAnswer = (selectedOption) => {
-        console.log(selectedOption);
-        if (selectedOption == "Yes"){
-            if(questions.answers[0]==="depression"){
-                setScore(score - 1);
-            }
-            else{
-                setScore(score + 1);
-            }
+        console.log(questions.answers[selectedOption]);
+        //handle depression scores
+        if([3,8,10,12,20].indexOf(currentQuestionIndex+1) > -1){
+            if(questions.answers[selectedOption]==="depression"){
+                 setDepressionScore(depressionScore - 1);
+             }
+             else{
+                 setDepressionScore(depressionScore + 1);
+             }
         }
-        if (selectedOption == "No"){
-            if(questions.answers[1]==="depression"){
-                setScore(score - 1);
-            }
-            else{
-                setScore(score + 1);
-            }
+        else if([1,2,5].indexOf(currentQuestionIndex+1) > -1){
+            //handle mainstream score
+            if(questions.answers[selectedOption]==="mainstream"){
+                 setMainstreamScore(mainstreamScore + 1);
+             }
+             else{
+                 setMainstreamScore(mainstreamScore - 1);
+             }
         }
-        /*
-        if (selectedOption === questions[currentQuestionIndex].answer) {
-            setScore(score + 1);
-        }        
-        setCurrentQuestionIndex(currentQuestionIndex + 1);
-        setQuestions(data[currentQuestionIndex]);
-        */        
+        else if([9,13,15].indexOf(currentQuestionIndex+1) > -1){
+            //handle music score
+            if(questions.answers[selectedOption]==="instrumentals"){
+                 setMusicScore(musicScore + 1);
+             }
+             else{
+                 setMusicScore(musicScore - 1);
+             }
+        }
+        else if([6,14,19].indexOf(currentQuestionIndex+1) > -1){
+            //handle emotional score
+            if(questions.answers[selectedOption]==="feel"){
+                 setEmotionScore(emotionScore + 1);
+             }
+             else{
+                 setEmotionScore(emotionScore - 1);
+             }
+        }
+        else if([7,16,17].indexOf(currentQuestionIndex+1) > -1){
+            //handle age score
+            if(questions.answers[selectedOption]==="classic"){
+                 setAgeScore(ageScore + 1);
+             }
+             else if(questions.answers[selectedOption]==="modern"){
+                 setAgeScore(ageScore - 1);
+             }
+        }
+        else if([4,11,18].indexOf(currentQuestionIndex+1) > -1){
+            //handle genre score
+            setGenreScore(prev => {
+            const updated = { ...prev };
+            for (const genre in questions.answers[selectedOption]) {
+                updated[genre] += questions.answers[selectedOption][genre];
+            }
+
+            return updated;
+        });
+        }
+
         if (currentQuestionIndex < data.length-1) {
             setCurrentQuestionIndex(currentQuestionIndex + 1);
-            //setQuestions(data[currentQuestionIndex]);
         } else {
             setIsCompleted(true);
         }
     };
 
     return (
-        /*
-        <div className="container">
-            <h1>Quiz Test</h1>
-            <hr/>
-            <h2>{currentQuestionIndex+1}. {questions.question}</h2>
-            <ul>
-                <li onClick={(selectedOption)=>{handleAnswer(selectedOption)}}>{questions.options[0]}</li>
-                <li onClick={(selectedOption)=>{handleAnswer(selectedOption)}}>{questions.options[1]}</li>
-            </ul>
-            <div className="index">{currentQuestionIndex+1} of {data.length}</div>
-        </div>
-        */
        <>
             {!isCompleted ? (      
                 <div className="container">
                     <h1>Quiz Test</h1>
                     <hr/>
                     <h2>{currentQuestionIndex+1}. {questions.question}</h2>
+                    
                     <ul>
-                        <li onClick={(selectedOption)=>{handleAnswer(questions.options[0])}}>{questions.options[0]}</li>
-                        <li onClick={(selectedOption)=>{handleAnswer(questions.options[1])}}>{questions.options[1]}</li>
+                        {questions.options.map((option, index) => (
+                            <li key={index} onClick={() => handleAnswer(index)}>
+                                {option}
+                            </li>
+                        ))}
                     </ul>
                     <div className="index">{currentQuestionIndex+1} of {data.length}</div>
                     <audio src={bgm} autoPlay loop style={{display:"none"}}/>
                 </div>      
             ) : (
-                <div>
-                    <h1>Results</h1>
-                    <div className="container">
-                        {score > 0 ?(
-                            <>
-                                <h2>You do not have depression!</h2>        
-                                <audio src={happy} autoPlay style={{display:"none"}}/>
-                            </>
-                        ) : (
-                            <>
-                                <h2>You have depression!</h2>        
-                                <audio src={sad} autoPlay style={{display:"none"}}/>
-                            </>
-                        )}
-                    </div>
+                <div className="container">
+                    <Results depressionScore={depressionScore} mainstreamScore={mainstreamScore} musicScore={musicScore} emotionScore={emotionScore} ageScore={ageScore} genreScore={genreScore}/>
                 </div>
             )}
         </>     
