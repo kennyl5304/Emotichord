@@ -61,82 +61,82 @@ export const songs = [
     },
     {
         results: ["mainstream", "high", "feel", "music", "pop", "classic"],
-        reccs: ["", "", ""],
+        reccs: ["Will You Still Love Me Tomorrow? – Carole King", "Landslide – Fleetwood Mac", "The Winner Takes It All - ABBA"],
         links: ["", "", ""]
     },
     {
         results: ["mainstream", "high", "feel", "music", "pop", "modern"],
-        reccs: ["", "", ""],
-        links: ["", "", ""]
+        reccs: ["Sign of the Times – Harry Styles", "All Too Well (10 Minute Version) – Taylor Swift", "The Subway – Chappell Roan"],
+        links: ["", "https://open.spotify.com/track/5enxwA8aAbwZbf5qCHORXi?si=bf18fbd32efe4849", ""]
     },
     {
         results: ["mainstream", "high", "feel", "music", "rock", "classic"],
-        reccs: ["", "", ""],
+        reccs: ["Bell Bottom Blues - Derek + The Dominos", "The Long and Winding Road – The Beatles", "Shangri-la – Electric Light Orchestra"],
         links: ["", "", ""]
     },
     {
         results: ["mainstream", "high", "feel", "music", "rock", "modern"],
-        reccs: ["", "", ""],
+        reccs: ["Exogenesis: Symphony – Part 3  (Redemption) - Muse ", "505 – Arctic Monkeys", "The (After) Life of the Party – Fall Out Boy"],
         links: ["", "", ""]
     },
     {
         results: ["mainstream", "high", "feel", "music", "hiphopelectronica", "classic"],
-        reccs: ["", "", ""],
+        reccs: ["Stone in Focus - Aphex Twin", "", ""],
         links: ["", "", ""]
     },
     {
         results: ["mainstream", "high", "feel", "music", "hiphopelectronica", "modern"],
-        reccs: ["", "", ""],
+        reccs: ["Sing About Me, I’m Dying of Thirst – Kendrick Lamar", "Moon – Kanye West", "Busted and Blue - Gorillaz"],
         links: ["", "", ""]
     },
     {
         results: ["indie", "high", "feel", "music", "pop", "classic"],
-        reccs: ["", "", ""],
+        reccs: ["Music Of The Night - Cast of The Phantom of the Opera", "Tinseltown in the Rain - The Blue Nile", "Mandy – Barry Manilow"],
         links: ["", "", ""]
     },
     {
         results: ["indie", "high", "feel", "music", "pop", "modern"],
-        reccs: ["", "", ""],
+        reccs: ["Want You Back – Maisie Peters", "Scott Street – Phoebe Bridgers", "Delicious Things - Wolf Alice"],
         links: ["", "", ""]
     },
     {
         results: ["indie", "high", "feel", "music", "rock", "classic"],
-        reccs: ["", "", ""],
+        reccs: ["Lover, You Should’ve Come Over - Jeff Buckley", "There is a Light that Never Goes Out – The Smiths", "No Surprises - Radiohead"],
         links: ["", "", ""]
     },
     {
         results: ["indie", "high", "feel", "music", "rock", "modern"],
-        reccs: ["", "", ""],
+        reccs: ["Rome Falls - Panicland", "Cigarettes and Saints - The Wonder Years", "Stay With Me - Spiritualized"],
         links: ["", "", ""]
     },
     {
         results: ["indie", "high", "feel", "music", "hiphopelectronica", "classic"],
-        reccs: ["", "", ""],
+        reccs: ["Overcome - Tricky", "", ""],
         links: ["", "", ""]
     },
     {
         results: ["indie", "high", "feel", "music", "hiphopelectronica", "modern"],
-        reccs: ["", "", ""],
+        reccs: ["Wait - M83", "Space Song - Beach House", ""],
         links: ["", "", ""]
     },
     {
         results: ["mainstream", "high", "suppress", "lyrics", "pop", "classic"],
-        reccs: ["", "", ""],
+        reccs: ["Don’t Speak - No Doubt", "Dreams - The Cranberries", "Running Up That Hill - Kate Bush"],
         links: ["", "", ""]
     },
     {
         results: ["mainstream", "high", "suppress", "lyrics", "pop", "modern"],
-        reccs: ["", "", ""],
+        reccs: ["The Archer - Taylor Swift", "Hardest to Love - The Weeknd", "Good Luck, Babe! - Chappell Roan"],
         links: ["", "", ""]
     },
     {
         results: ["mainstream", "high", "suppress", "lyrics", "rock", "classic"],
-        reccs: ["", "", ""],
+        reccs: ["One of my Turns - Pink Floyd", "Life on Mars? - David Bowie", "Goodbye to Romance - Ozzy Osbourne"],
         links: ["", "", ""]
     },
     {
         results: ["mainstream", "high", "suppress", "lyrics", "rock", "modern"],
-        reccs: ["", "", ""],
+        reccs: ["Trade Mistakes – Panic! At The Disco", "Famous Last Words – My Chemical Romance", "Forever Now - Green Day"],
         links: ["", "", ""]
     },
     {
@@ -146,27 +146,27 @@ export const songs = [
     },
     {
         results: ["mainstream", "high", "suppress", "lyrics", "hiphopelectronica", "modern"],
-        reccs: ["", "", ""],
+        reccs: ["", "", "Stay the Night - Zedd"],
         links: ["", "", ""]
     },
     {
         results: ["indie", "high", "suppress", "lyrics", "pop", "classic"],
-        reccs: ["", "", ""],
+        reccs: ["The Whisperers - The The", "", ""],
         links: ["", "", ""]
     },
     {
         results: ["indie", "high", "suppress", "lyrics", "pop", "modern"],
-        reccs: ["", "", ""],
+        reccs: ["I Blame Myself - Sky Ferreria", "El Tango De Roxanne - Aaron Tveit + Cast of Moulin Rouge", "Crocodile Tears - Lauren Mayberry"],
         links: ["", "", ""]
     },
     {
         results: ["indie", "high", "suppress", "lyrics", "rock", "classic"],
-        reccs: ["", "", ""],
+        reccs: ["Bullet With Butterfly Wings - The Smashing Pumpkins", "Self-Esteem - The Offspring", "Electioneering - Radiohead"],
         links: ["", "", ""]
     },
     {
         results: ["indie", "high", "suppress", "lyrics", "rock", "modern"],
-        reccs: ["", "", ""],
+        reccs: ["Reptilia - The Strokes", "Eastbound and Down - WSTR", "Me First - Real Friends"],
         links: ["", "", ""]
     },
     {
@@ -181,22 +181,22 @@ export const songs = [
     },
     {
         results: ["mainstream", "high", "suppress", "music", "pop", "classic"],
-        reccs: ["", "", ""],
+        reccs: ["Total Eclipse of the Heart - Bonnie Tyler", "Heart of Glass - Blondie", ""],
         links: ["", "", ""]
     },
     {
         results: ["mainstream", "high", "suppress", "music", "pop", "modern"],
-        reccs: ["", "", ""],
+        reccs: ["Perfect World - Twice", "This Hell - Rina Sawayama", "Obsessed - Olivia Rodrigo"],
         links: ["", "", ""]
     },
     {
         results: ["mainstream", "high", "suppress", "music", "rock", "classic"],
-        reccs: ["", "", ""],
+        reccs: ["Layla – Derek + The Dominos", "Police On My Back – The Clash", "Don’t Look Back in Anger - Oasis"],
         links: ["", "", ""]
     },
     {
         results: ["mainstream", "high", "suppress", "music", "rock", "modern"],
-        reccs: ["", "", ""],
+        reccs: ["Everything Will Be Alright – The Killers", "Drugstore Perfume - Gerard Way", "Death and All His Friends - Coldplay"],
         links: ["", "", ""]
     },
     {
@@ -206,27 +206,27 @@ export const songs = [
     },
     {
         results: ["mainstream", "high", "suppress", "music", "hiphopelectronica", "modern"],
-        reccs: ["", "", ""],
+        reccs: ["Lithonia - Childish Gambino", "Kill Bill - SZA", ""],
         links: ["", "", ""]
     },
     {
         results: ["indie", "high", "suppress", "music", "pop", "classic"],
-        reccs: ["", "", ""],
+        reccs: ["This is the Day - The The", "Fade to Grey - Visage", ""],
         links: ["", "", ""]
     },
     {
         results: ["indie", "high", "suppress", "music", "pop", "modern"],
-        reccs: ["", "", ""],
+        reccs: ["To My Youth - Bol4", "Breathe - Dom Fera", "Tough to be a Dreamer - Felix Hagan and the Family"],
         links: ["", "", ""]
     },
     {
         results: ["indie", "high", "suppress", "music", "rock", "classic"],
-        reccs: ["", "", ""],
+        reccs: ["Incinerate – Sonic Youth", "Fade Into You - Mazzy Star", "Feel the Pain - Dinosaur Jr."],
         links: ["", "", ""]
     },
     {
         results: ["indie", "high", "suppress", "music", "rock", "modern"],
-        reccs: ["", "", ""],
+        reccs: ["World War Me - King and Queen of the Losers", "Starcrossed Losers - The Fratellis", "Red Eyes - The War on Drugs"],
         links: ["", "", ""]
     },
     {
@@ -236,7 +236,7 @@ export const songs = [
     },
     {
         results: ["indie", "high", "suppress", "music", "hiphopelectronica", "modern"],
-        reccs: ["", "", ""],
+        reccs: ["", "Helix - Night Tapes", "I Disappear - New Constellations"],
         links: ["", "", ""]
     },
     {

@@ -20,7 +20,7 @@ export const data = [
         answers: [{pop:1}, {rock:1}, {hiphopelectronica:1}]
     },
     {
-        question: "Interesting selection... I'd like to think of myself as a musical connoisseur, though even I have to admit my limits. No matter how much content I consume, I'm never going to be an objective recommender since there will always be musical styles I gravitate towards the most, and those three are the ones. Back to the hypotheticals. This time, I'll expand things to the world at large. It's damn near impossible to ignore how fucked up everything is in the world right now, especially under the current poltical climate. Now, this question can be approached from many different perspectives, and I won't specify which is correct. Do you believe in the safety that a government provides?",
+        question: "Interesting selection... I'd like to think of myself as a musical connoisseur, though even I have to admit my limits. No matter how much content I consume, I'm never going to be an objective recommender since there will always be musical styles I gravitate towards the most, and those three are the ones. \n\nBack to the hypotheticals. This time, I'll expand things to the world at large. It's damn near impossible to ignore how fucked up everything is in the world right now, especially under the current poltical climate. Now, this question can be approached from many different perspectives, and I won't specify which is correct. Do you believe in the safety that a government provides?",
         options: ["Yes", "No"],
         answers: ["mainstream", "indie"]
     },

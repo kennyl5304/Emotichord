@@ -104,6 +104,44 @@ h2{
 }
 
 
+.results-container{
+  margin:auto;
+  margin-top:150px;
+  width:1000px;
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+  border-radius:10px;
+  padding:40px, 50px;
+}
+
+
+.results-container ul li {
+  display:flex;
+  align-items:center;
+  height:80px;
+  padding-left:15px;
+  border:1px solid gray;
+  border-radius:8px;
+  margin-bottom:20px;
+  font-size:20px;
+  cursor:pointer;
+}
+
+.results-container ul li a {
+  text-decoration:none;
+  color:aqua;
+}
+
+.results-container ul li:hover{
+  background-color: rgb(58, 56, 56);
+}
+
+.results-container ul li:hover{
+  background-color: gray;
+}
+
+
 
 body {
   margin: 0;

@@ -113,7 +113,7 @@ const Quiz = () => {
                     <audio src={bgm} autoPlay loop style={{display:"none"}}/>
                 </div>      
             ) : (
-                <div className="container">
+                <div className="results-container">
                     <Results depressionScore={depressionScore} mainstreamScore={mainstreamScore} musicScore={musicScore} emotionScore={emotionScore} ageScore={ageScore} genreScore={genreScore}/>
                 </div>
             )}
