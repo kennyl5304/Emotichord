@@ -799,9 +799,9 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
     };
 
     return (
-        <div className="container">
+        <div>
             <h1>Results</h1>
-
+            <br/>
             {renderResult()}
 
             <hr />

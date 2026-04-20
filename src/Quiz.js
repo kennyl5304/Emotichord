@@ -18,6 +18,7 @@ const Quiz = () => {
     const questions = data[currentQuestionIndex];
     //const [questions, setQuestions] = useState(data[currentQuestionIndex]);
     const [isCompleted, setIsCompleted] = useState(false);
+    const [started, setStarted] = useState(false);
     
     console.log(depressionScore);
     const handleAnswer = (selectedOption) => {
@@ -88,11 +89,18 @@ const Quiz = () => {
 
     return (
        <>
-            {!isCompleted ? (      
+            {!started ? (
                 <div className="container">
-                    <h1>Quiz Test</h1>
+                    <h1>Emotichord song recommender</h1>
                     <hr/>
-                    <h2>{currentQuestionIndex+1}. {questions.question}</h2>
+                    <p>Welcome to the <i>Emotichord</i> song recommender, a musical therapy quiz meant to act as a mental wellness check that simultaneously gives you a handful of songs based on how you're currently feeling.</p>
+                    <button onClick={() => setStarted(true)}>Begin</button>
+                </div>
+            ) : !isCompleted ? (
+                <div className="container">
+                    <h1>Mental Wellness Recommender</h1>
+                    <hr/>
+                    <h2>{questions.question}</h2>
                     
                     <ul>
                         {questions.options.map((option, index) => (
@@ -109,6 +117,27 @@ const Quiz = () => {
                     <Results depressionScore={depressionScore} mainstreamScore={mainstreamScore} musicScore={musicScore} emotionScore={emotionScore} ageScore={ageScore} genreScore={genreScore}/>
                 </div>
             )}
+            {/*!isCompleted ? (      
+                <div className="container">
+                    <h1>Mental Wellness Recommender</h1>
+                    <hr/>
+                    <h2>{questions.question}</h2>
+                    
+                    <ul>
+                        {questions.options.map((option, index) => (
+                            <li key={index} onClick={() => handleAnswer(index)}>
+                                {option}
+                            </li>
+                        ))}
+                    </ul>
+                    <div className="index">{currentQuestionIndex+1} of {data.length}</div>
+                    <audio src={bgm} autoPlay loop style={{display:"none"}}/>
+                </div>      
+            ) : (
+                <div className="container">
+                    <Results depressionScore={depressionScore} mainstreamScore={mainstreamScore} musicScore={musicScore} emotionScore={emotionScore} ageScore={ageScore} genreScore={genreScore}/>
+                </div>
+            )*/}
         </>     
     );
 };
