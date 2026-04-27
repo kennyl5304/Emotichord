@@ -185,7 +185,7 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
                                 results.push(
                                     <>
                                     <p>
-                                        I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are popular and timeless for a reason. I know it seems like you're not in a good headspace right now, and I'm sorry about that. I won't go on about how things will get better. Honestly, many times in my battle against my own depression, I've never wanted to think about the light at the end of the tunnel. I'd cope by channeling my emotions and negativity through hiding them behind the mask of pretending to be okay. I think you're in the same boat of wanting to hide everything behind that mask, but sometimes that negativity does slip through in the form of frustration and confusion. 
+                                        I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are popular and timeless for a reason. I know it seems like you're not in a good headspace right now, and I'm sorry about that. I won't go on about how things will get better. Honestly, many times in my battle against my own depression, I've never wanted to think about the light at the end of the tunnel. I'd cope by channeling my emotions and negativity through hiding them behind the mask of pretending to be okay. I think you're in the same boat of wanting to hide everything behind that mask, but sometimes that negativity does slip through in the form of frustration, confusion, and pure rage. In that case, my go-tos are ragers like Blur's "Song 2" which is honestly iconic at this point and is one of those songs you just want to scream out the chorus to at the top of your lungs. Same goes for "Layla," which is on my bucket list of songs I want to learn one day on guitar, vocals, and piano. It's really the song that I feel best captures that speicifc type of romantic yearning that blends confusion, anger, and lust into a pure release of emotion. In my opinion, it's the greatest song ever written. Give these a spin and just let all your emotions out. 
                                     </p>
                                     </>
                                 );
@@ -204,11 +204,21 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
                         else{
                             if(profile.age === "classic"){
                                 //Indie + Depression + Suppress Emotions + Prefer Instrumental + Rock + Classic
-
+                                results.push(
+                                <>
+                                    <p>You're someone who likes the unconventional, the kind of stuff that has a cult following Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about going to an indie show and knowing "yeah, this is a tight knit but loyal crowd" you know? I know it seems you're not in the best headspace right now. I won't say "I know how you feel" or anything like that because truthfully I don't and no one else does either, but I will say you are not alone in maybe feeling confused or frustrated in these times. Wanting to hide everything behind a veil of normalcy is completely valid, and in times like these when I like to really vibe with the instrumentals, there's a specific type of song I look for, which are songs that would be good to play during a night drive or just speeding down the highway. Sonic Youth's "Incinerate" while being one of their most accessible songs, really nails that vibe of just wanting to forget your pain and mask it with something that might be bittersweet but hopeful that things might work out in the end. I can't even truthfully say things will work out in the end, because I can't really believe that at the moment, but maybe these songs might help us to pretend for a little while that they will.
+                                    </p>
+                                </>
+                                );
                             }
                             else{
                                 //Indie + Depression + Suppress Emotions + Prefer Instrumental + Rock + Modern
-                                
+                                results.push(
+                                <>
+                                    <p>You're someone who likes the unconventional, the kind of stuff that has a cult following Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about going to an indie show and knowing "yeah, this is a tight knit but loyal crowd" you know? I know it seems you're not in the best headspace right now. I won't say "I know how you feel" or anything like that because truthfully I don't and no one else does either, but I will say you are not alone in maybe feeling confused or frustrated in these times. Wanting to hide everything behind a veil of normalcy is completely valid, and in times like these when I like to really vibe with the instrumentals, there's a specific type of song I look for, which are songs that would be good to play during a night drive or just speeding down the highway. Modern indie rock has so many songs that fit that vibe, like The War on Drugs was basically made for the idea of a night drive down an Americana freeway. The Fratellis is really an underrated band in my opinion where their later work also nails the bittersweet hopeful vibe. We are all just living on that hope that things will work out in the end. Even if we don't believe it, hopefully these tracks can help us believe for just a little while that they will. Sometimes, the best part of believing is the "lie."
+                                    </p>
+                                </>
+                                );
                             }
                         }
                     }
@@ -558,9 +568,21 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
                         else{
                             if(profile.age === "classic"){
                                 //Indie + Depression + Suppress Emotions + Prefer Lyrics + Pop + Classic
+                                results.push(
+                                    <>
+                                        <p>You're someone who likes the unconventional, the kind of stuff that has a devoted cult following. Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about listening to an artist and knowing "yeah, this is a tight knit but loyal crowd" you know? Anyway, I feel like you're probably not in the best headspace right now. These are really confusing times, and I won't say I know how you feel because truthfully I don't, and chances are most probably won't know either, but I just wanted you to know you're not alone in feeling that way. Sometimes when I'm holding it all in and putting on this mask of being fine when I'm not, I'd usually put on classic indie pop and synth where the happy sounding melodies are used to mask the inherent sadness portrayed by the words, almost like the lyrics are trying to hide how dire things are to themselves as well. There's an emotional instability to classics like "September Gurls" and "The Concept" that I feel like matches the confusion and sometimes frustration that we all feel be it from life, love, or the world crumbling. Feel free to put these on and just jam out and maybe rage to these words. Hopefully they'll continue to help us mask our pain through the guise of pure energy.
+                                        </p>
+                                    </>
+                                );
                             }
                             else{
                                 //Indie + Depression + Suppress Emotions + Prefer Lyrics + Pop + Modern
+                                results.push(
+                                    <>
+                                        <p>You're someone who likes the unconventional, the kind of stuff that has a devoted cult following. Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about listening to an artist and knowing "yeah, this is a tight knit but loyal crowd" you know? Anyway, I feel like you're probably not in the best headspace right now. These are really confusing times, and I won't say I know how you feel because truthfully I don't, and chances are most probably won't know either, but I just wanted you to know you're not alone in feeling that way. Sometimes when I'm holding it all in and putting on this mask of being fine when I'm not, I'd put on some groovy indie pop tunes, and maybe a handful of theatre ragers. <i>Moulin Rouge</i> is one of my favorite films of all time, so obviously I'd be a huge fan of the musical, especially Aaron Tveit's take on "El Tango de Roxanne," which I may or may not have scream sung in the shower many many times whenever feeling insecure and frustrated. It's one of those cases where I love the original film version, but I also love how this take draws more from the original structure of Roxanne to create just a straight up vent of pure anger. On the other hand, I'd also listen to slower more melodic pop songs like "Crocodile Tears" and "I Blame Myself" because they have such simple easygoing melodies that also disguise the downright sadness expressed by the words. Give these a spin and maybe you can release some of that anger and frustration you've been supressing.
+                                        </p>
+                                    </>
+                                );
                             }
                         }
                     }
