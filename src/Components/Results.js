@@ -512,11 +512,21 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
                         else{
                             if(profile.age === "classic"){
                                 //Indie + Depression + Suppress Emotions + Prefer Instrumental + Pop + Classic
-
+                                results.push(
+                                    <>
+                                        <p>You're someone who likes the unconventional, the kind of stuff that has a devoted cult following. Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about listening to an artist and knowing "yeah, this is a tight knit but loyal crowd" you know? Anyway, I feel like you're probably not in the best headspace right now. These are really confusing times, and I won't say I know how you feel because truthfully I don't, and chances are most probably won't know either, but I just wanted you to know you're not alone in feeling that way. Sometimes when I'm holding it all in and putting on this mask of being fine when I'm not, I'd usually put on something that matches the confusion and frustration inside me. Usually it'd be early synth pop and new wave, kinda like the experimental post punk of the time but a bit less doomer I guess? Stuff like Orchestral Manoeuvres and Visage kinda capture that specific vibe that's hard to desribe. Feel free to give these a try and see if they resonate with your emotions right now.
+                                        </p>
+                                    </>
+                                );
                             }
                             else{
                                 //Indie + Depression + Suppress Emotions + Prefer Instrumental + Pop + Modern
-                                
+                                results.push(
+                                    <>
+                                        <p>You're someone who likes the unconventional, the kind of stuff that has a devoted cult following. Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about listening to an artist and knowing "yeah, this is a tight knit but loyal crowd" you know? Anyway, I feel like you're probably not in the best headspace right now. These are really confusing times, and sometimes you want to just put on a happy song and pretend like your world hasn't fallen apart just yet. I've been in a similar position before, and sometimes I just want the happy songs that have a tinge of bittersweetness to them, like theres that inner turmoil underneath that gets masked by the melody. Bol4 is my favorite Korean band (that's technically not even a band anymore, kinda like P!ATD) and they have a lot of songs that nail the nostalgic but kinda bittersweet vibe that I'm thinking of. A lot of indie pop really lives on that specific vibe, so there's often a lot of those in my playlists, like Dom Fera's "Breathe." Give these a listen, and I feel like they'd be good for just lifting your spirits up for a little while longer.  
+                                        </p>
+                                    </>
+                                );
                             }
                         }
                     }
