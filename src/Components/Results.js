@@ -598,21 +598,43 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
                             //if you prefer classics
                             if(profile.age === "classic"){
                                 //Mainstream + Satisfied + Feel Emotions + Prefer Instrumental + Pop + Classic
-
+                                results.push(
+                                    <>
+                                    <p>
+                                        I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are timeless and popular for a reason. It seems like you're doing relatively well. I'm glad! It seems like you prefer to feel that happiness, really resonating with chill and easygoing melodies. Whenever I'm really in the zone and feeling that content, I'd usually go to '80s pop, mainly songs that would be good driving music. Like, Hall & Oates was literally made to be played on a night drive in a neon soaked Miami (if you know, you know). Elton's "Philadelphia Freedom" is also a good one. I really just like the upbeat songs where there's this wall of sound that give the whole thing a larger than life feel. Give these a spin and feel free to just groove to them :)
+                                    </p>
+                                    </>
+                                );
                             }
                             else{
                                 //Mainstream + Satisfied + Feel Emotions + Prefer Instrumental + Pop + Modern
-                                
+                                results.push(
+                                    <>
+                                    <p>
+                                        I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are popular bops for a reason. It seems like you're doing relatively well. I'm glad! It seems like you prefer to feel that happiness, really resonating with chill and easygoing melodies. Whenever I'm really in the zone and feeling that content, I'd usually go for groovy driving songs, stuff that would be great for a neon soaked night drive through the city. Djo's "End of Beginning" really does fit the bill perfectly, as well as Blackpink's "Yeah Yeah Yeah," which is one of my favorite BP songs. There's a lot of good modern pop songs that fit the bill for night driving songs. These are just the tip of a really great iceberg. Feel free to give these a spin and just absolutely groove :)
+                                    </p>
+                                    </>
+                                );
                             }
                         }
                         else{
                             if(profile.age === "classic"){
                                 //Indie + Satisfied + Feel Emotions + Prefer Instrumental + Pop + Classic
-
+                                results.push(
+                                    <>
+                                        <p>You're someone who likes the unconventional, the kind of stuff that has a devoted cult following. Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about listening to an artist and knowing "yeah, this is a tight knit but loyal crowd" you know? Anyway, I feel like you're in a pretty good headspace right now, which I'm glad! It seems that you like to feel that happiness, and I'd say that is best seen through melodies that just sound like they're evoking the sight of a sunny spring day. It's hard to describe but you just kinda get it when listening to classic theatre bops like "Good Morning Starshine" from <i>Hair</i>, and Bob Marley's "Three Little Birds." They're all just really sunny songs that are perfect for straight up vibing and feeling that happiness and tranquility that you currently have. Feel free to give these a spin and vibe :) 
+                                        </p>
+                                    </>
+                                );
                             }
                             else{
                                 //Indie + Satisfied + Feel Emotions + Prefer Instrumental + Pop + Modern
-                                
+                                results.push(
+                                    <>
+                                        <p>You're someone who likes the unconventional, the kind of stuff that has a devoted cult following. Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about listening to an artist and knowing "yeah, this is a tight knit but loyal crowd" you know? Anyway, I feel like you're in a pretty good headspace right now, which I'm glad! It seems that you like to feel that happiness, and I would personally recommend all of Young Rising Sons' work. Particularly "King of the World," they are really good at nailing the early 2010s Americana positivity that was all over the airwaves at the time. I'd also recommend a lot of Kim Petras' early singles. I love <i>Turn Off the Light</i> but it's good for horror Halloween vibes rather than the happy vibe you're chasing. To top it off, Bol4 has a lot of songs that I would go for. "Travel" is my favorite Korean song and it's really good for this, but in this case, I'd recommend "When I Fall in Love." It's a more of a softer one, but still has that innocent sounding melody. Feel free to give these a spin and just vibe :)
+                                        </p>
+                                    </>
+                                );
                             }
                         }
                     }
