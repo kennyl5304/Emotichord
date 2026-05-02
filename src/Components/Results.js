@@ -280,12 +280,24 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
                             //if you prefer classics
                             if(profile.age === "classic"){
                                 //Mainstream + Satisfied + Feel Emotions + Prefer Instrumental + Rock + Classic
-
-
+                                results.push(
+                                    <>
+                                    <p>
+                                        I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are timeless and popular for a reason. It seems like you're doing relatively well. I'm glad! It seems like you prefer to feel that happiness, really resonating with the emotional release that comes with the best of classic rock. Whenever I'm really in the zone and feeling that content, I'd usually go for that night drive mood. The kind where you are driving through a tunnel on the freeway with only the distant city lights in the distance to illuminate your view. David Bowie's "Heroes" and Bob Seger's "Night Moves" are both really good driving songs, and I feel like they might resonate with you given how you like to really feel the music. Feel free to give these a spin and just vibe.
+                                    </p>
+                                    </>
+                                );
                             }
                             else{
                                 //Mainstream + Satisfied + Feel Emotions + Prefer Instrumental + Rock + Modern
-                                
+                                results.push(
+                                    <>
+                                    <p>
+                                        I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are popular bops for a reason. It seems like you're doing relatively well. I'm glad! It seems like you prefer to feel that happiness, really resonating with the emotional release that comes with the best of classic rock. Whenever I'm really in the zone and feeling that content, I'd usually go for good old fashioned 2000's pop punk. Obviously there's the nostalgia with a lot of these songs, but "Ocean Avenue" and "Dance Inside" are great songs to vibe to with the way their melodies evoke feelings of summertime and escaping from all the worries in life. Feel free to give these a spin and just vibe.
+                                    </p>
+                                    </>
+                                );
+                            }
                             }
                         }
                         else{
