@@ -980,7 +980,12 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
                             }
                             else{
                                 //Indie + Depression + Suppress Emotions + Prefer Instrumental + Hiphop/electronica + Modern
-                                
+                                results.push(
+                                    <>
+                                        <p>You're someone who likes the unconventional, the kind of stuff that has a devoted cult following. Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about listening to an artist and knowing "yeah, this is a tight knit but loyal crowd" you know? Anyway, I feel like you're probably not in the best headspace right now. These are really confusing times, and sometimes you want to just put on a happy song and pretend like your world hasn't fallen apart just yet. I've been in a similar position before, and sometimes I just want to bury those feelings deep down. In cases like this, I'd go for more subdued electronica. The kind of songs that would play when you're stoned at 1AM. Songs like "Running Away" by VANO3000 and "Helix" by Night Tapes nail the slight melancholy and reserved energy that I'd go for when I want to just dilute my emotions. I think these could resonate with you given your current headspace. Give these a listen, and I feel like they'd be good for just lifting your spirits up for a little while longer.  
+                                        </p>
+                                    </>
+                                );
                             }
                         }
                     }
@@ -993,6 +998,13 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
                             }
                             else{
                                 //Mainstream + Depression + Suppress Emotions + Prefer Lyrics + Hiphop/electronica + Modern
+                                results.push(
+                                    <>
+                                    <p>
+                                        I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are popular for a reason. I know it seems like you're not in the best headspace right now. I'm sorry about that. I won't say it'll get better because I'm in a similar boat myself, and that is not something I would want to hear right now either. It seems like you'd be the type to use music as a crutch; as a way to boost your mood and distract you from all that pain in your life. It's hard, but you want to try, right? Personally during times like these, I'd listen to modern EDM hits. The maximalist production really helps to just make you forget about all your woes.
+                                    </p>
+                                    </>
+                                );
                             }
                         }
                         else{
@@ -1030,7 +1042,12 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
                             }
                             else{
                                 //Indie + Satisfied + Feel Emotions + Prefer Instrumental + Hiphop/electronica + Modern
-                                
+                                results.push(
+                                    <>
+                                        <p>You're someone who likes the unconventional, the kind of stuff that has a devoted cult following. Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about listening to an artist and knowing "yeah, this is a tight knit but loyal crowd" you know? Anyway, I feel like you're in a pretty good headspace right now, which I'm glad! It seems that you actually prefer to suppress that happiness rather than feeling it. It's like there's a sinking feeling deep down that things could always get better, even if they're not the best right now. You're also someone who resonates more with composition and the ambient melody of a song. In times like this, I would go for a specific night drive vibe where there's a mix of synthwave and indietronica. I recently got into The Midnight, and their songs are really good for generating a blend of nostalgia and positive vibes. Same goes for a lot of Chvrches songs. These songs are perfect for just cruising slowly at night and absolutely resonating with your positive vibes. Feel free to give these songs a spin and just vibe out.
+                                        </p>
+                                    </>
+                                );
                             }
                         }
                     }
@@ -1051,6 +1068,12 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
                             }
                             else{
                                 //Indie + Satisfied + Feel Emotions + Prefer Lyrics + Hiphop/electronica + Modern
+                                results.push(
+                                    <>
+                                        <p>You're someone who likes the unconventional, the kind of stuff that has a devoted cult following. Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about listening to an artist and knowing "yeah, this is a tight knit but loyal crowd" you know? Anyway, I feel like you're in a pretty good headspace right now, which I'm glad! It seems that you actually prefer to suppress that happiness rather than feeling it. It's like there's a sinking feeling deep down that things could always get better, even if they're not the best right now. You're also someone who resonates more with lyricism that reinforces your positive mood than melody. In times like this, I would go for a specific night drive vibe where there's a mix of synthwave and indietronica. I recently got into The Midnight, and their songs are really good for generating a blend of nostalgia and positive vibes with cinematic lyrics about achieving a sense of freedom. Same goes for a lot of Chvrches songs. These songs are perfect for just cruising at night and absolutely resonating with your positive vibes. Feel free to give these songs a spin and just vibe out.
+                                        </p>
+                                    </>
+                                );
                             }
                         }
                     }
@@ -1066,17 +1089,33 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
                             }
                             else{
                                 //Mainstream + Satisfied + Suppress Emotions + Prefer Instrumental + Hiphop/electronica + Modern
-                                
+                                results.push(
+                                    <>
+                                    <p>
+                                        I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are popular bops for a reason. It seems like you're doing relatively well. I'm glad! Based on your answers, it seems like you actually prefer to suppress that happiness rather than feeling it. It's like there's a sinking feeling deep down that things could always get better, even if they're not the best right now. It's the acknowledgement that sometimes we don't need music to reinforce how we feel. You're also someone who really resonates with melody and composition. Whenever I'm feeling more neutral, I'd go for maximalist songs that are larger than life. Songs like Blackaway and Black Caviar's "What's Up Danger" and Kanye's "All of the Lights", which in my opinion is one of the greatest hip hop songs ever written, nail the slightly angry tone and emotional release that comes from bottling down one's emotions. I think these songs will resonate with you with how you're currently feeling as well as your musical preferences. Feel free to give these a spin and groove like no one's watching.
+                                    </p>
+                                    </>
+                                );
                             }
                         }
                         else{
                             if(profile.age === "classic"){
                                 //Indie + Satisfied + Suppress Emotions + Prefer Instrumental + Hiphop/electronica + Classic
-
+                                results.push(
+                                    <>
+                                        <p>You're someone who likes the unconventional, the kind of stuff that has a devoted cult following. Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about listening to an artist and knowing "yeah, this is a tight knit but loyal crowd" you know? Anyway, I feel like you're in a pretty good headspace right now, which I'm glad! It seems that you actually prefer to suppress that happiness rather than feeling it. It's like there's a sinking feeling deep down that things could always get better, even if they're not the best right now. You're also someone who resonates more with composition and the ambient melody of a song. In cases like this, I would go for classic electronica. It's definitely a strong niche, but material like Brian Eno's "The Big Ship" are really good songs to just space out and get in tune with your mind to. Feel free to give these songs a spin and just vibe out.
+                                        </p>
+                                    </>
+                                );
                             }
                             else{
                                 //Indie + Satisfied + Suppress Emotions + Prefer Instrumental + Hiphop/electronica + Modern
-                                
+                                results.push(
+                                    <>
+                                        <p>You're someone who likes the unconventional, the kind of stuff that has a devoted cult following. Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about listening to an artist and knowing "yeah, this is a tight knit but loyal crowd" you know? Anyway, I feel like you're in a pretty good headspace right now, which I'm glad! It seems that you actually prefer to suppress that happiness rather than feeling it. It's like there's a sinking feeling deep down that things could always get better, even if they're not the best right now. You're also someone who resonates more with composition and the ambient melody of a song. In times like this, I would go for a specific night drive vibe where there's a mix of synthwave and jazz fusion electronica like <i>Drive's</i> very own "Nightcall" by Kavinsky and "Dragonball Durag" by Thundercat. These songs are perfect for just cruising slowly at night and spacing out. Feel free to give these songs a spin and just vibe out.
+                                        </p>
+                                    </>
+                                );
                             }
                         }
                     }
