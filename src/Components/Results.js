@@ -377,7 +377,7 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
                                  results.push(
                                     <>
                                     <p>
-                                        I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are timeless and popular classics for a reason. It seems like you're doing relatively well. I'm glad to hear that! I Hope you're feeling a good sense of stability in your life fight now. Based on your answers, it seems like you actually would rather prefer to suppress that happiness, rather than feeling it. It's like there's a sinking feeling deep down that things could always get better, even if they're not the best right now. It's the acknowledgement that sometimes we don't need music to reinforce how we feel.  In this case, I'd actually go for more angry material. material that's angry enough to be a bit edgy but also has enough of a cool vibe to dilute the negativity. I'll recommend some older rock tunes like Garbage's "Only Happy When it Rains" which the title alone I feel really hits that sweet spot of how you might be feeling. It's got just enough of a balance between the positive and negative emotions, and neither dampen the pure energy the song has. Feel free to give these a spin and just vibe to the ragers.
+                                        I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are timeless and popular classics for a reason. It seems like you're doing relatively well. I'm glad to hear that! I Hope you're feeling a good sense of stability in your life fight now. Based on your answers, it seems like you actually would rather prefer to suppress that happiness, rather than feeling it. It's like there's a sinking feeling deep down that things could always get better, even if they're not the best right now. It's the acknowledgement that sometimes we don't need music to reinforce how we feel. In this case, I'd actually go for more angry material. material that's angry enough to be a bit edgy but also has enough of a cool vibe to dilute the negativity. I'll recommend some older rock tunes like Garbage's "Only Happy When it Rains" which the title alone I feel really hits that sweet spot of how you might be feeling. It's got just enough of a balance between the positive and negative emotions, and neither dampen the pure energy the song has. Feel free to give these a spin and just vibe to the ragers.
                                     </p>
                                     </>
                                 );
@@ -739,17 +739,43 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
                             //if you prefer classics
                             if(profile.age === "classic"){
                                 //Mainstream + Satisfied + Feel Emotions + Prefer Lyrics + Pop + Classic
+                                 results.push(
+                                    <>
+                                    <p>
+                                        I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are timeless and popular for a reason. It seems like you're doing relatively well. I'm glad! Based on your answers, it seems like you prefer to feel that happiness, really resonating with the emotional release that comes with lyrics about having a good time. You're also someone who resonates more with lyrics than melody. Whenever I'm really in the zone and feeling that content, I'd usually go to material from the '70s and back. Songs like "Beyond the Sea" and "Dancing Queen" are just really positive and danceable hits that are bound to reinforce the easygoing satisfaction you are currently feeling. I think if you're really down to continue riding an emotional high, these songs are a must in your playlist. Feel free to give these a spin and just vibe.
+                                    </p>
+                                    </>
+                                );
                             }
                             else{
                                 //Mainstream + Satisfied + Feel Emotions + Prefer Lyrics + Pop + Modern
+                                results.push(
+                                    <>
+                                    <p>
+                                        I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are popular bops for a reason. It seems like you're doing relatively well. I'm glad! Based on your answers, it seems like you prefer to feel that happiness, really resonating with the emotional release that comes with lyrics about having a good time. You're also someone who resonates more with lyrics than melody. Whenever I'm really in the zone and feeling that content, I'd usually go to girlie pop. Songs like Sabrina Carpenter's "Juno" are just really camp and fun to dance to when you absolutely don't care to be serious. You should definitely put these tunes on and just dance like no one's watching. Feel free to give these songs a spin and just vibe.
+                                    </p>
+                                    </>
+                                );
                             }
                         }
                         else{
                             if(profile.age === "classic"){
                                 //Indie + Satisfied + Feel Emotions + Prefer Lyrics + Pop + Classic
+                                results.push(
+                                    <>
+                                        <p>You're someone who likes the unconventional, the kind of stuff that has a devoted cult following. Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about listening to an artist and knowing "yeah, this is a tight knit but loyal crowd" you know? Anyway, I feel like you're in a pretty good headspace right now, which I'm glad! It seems that you like to feel that happiness, really resonating with the emotional release that comes with lyrics about having a good time. I would recommend a couple of alternative songs from the 20th century like "500 Miles" by the Proclaimers and "Dancing in the Moonlight" by King Crimson, which are really carefree songs with positive lyricism about living in a perfect world. I think if you're really down to continue riding an emotional high, these songs are bound to reinforce the easygoing satisfaction you are currently feeling. Feel free to give these songs a spin and just vibe.
+                                        </p>
+                                    </>
+                                );
                             }
                             else{
                                 //Indie + Satisfied + Feel Emotions + Prefer Lyrics + Pop + Modern
+                                results.push(
+                                    <>
+                                        <p>You're someone who likes the unconventional, the kind of stuff that has a devoted cult following. Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about listening to an artist and knowing "yeah, this is a tight knit but loyal crowd" you know? Anyway, I feel like you're in a pretty good headspace right now, which I'm glad! It seems that you like to feel that happiness, really resonating with the emotional release that comes with lyrics about having a good time. I would recommend a couple of indie pop tunes like "Chasing This" by Misterwives and "Alaska" by Maggie Rogers, which are really carefree songs with positive lyricism about continuing to chase that emotional high, and I think if you're really down to continue riding that emotion, these songs are bound to reinforce the easygoing satisfaction you are currently feeling. Feel free to give these songs a spin and just vibe.
+                                        </p>
+                                    </>
+                                );
                             }
                         }
                     }
@@ -761,21 +787,44 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
                             //if you prefer classics
                             if(profile.age === "classic"){
                                 //Mainstream + Satisfied + Suppress Emotions + Prefer Instrumental + Pop + Classic
-
+                                results.push(
+                                    <>
+                                    <p>
+                                        I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are timeless and popular for a reason. It seems like you're doing relatively well. I'm glad! Based on your answers, it seems like you actually prefer to suppress that happiness rather than feeling it. It's like there's a sinking feeling deep down that things could always get better, even if they're not the best right now. It's the acknowledgement that sometimes we don't need music to reinforce how we feel. You're also someone who really resonates with melody and composition. Whenever I'm feeling more neutral, I'd go for songs that are good for walking while feeling like a badass. Billy Joel's "The Stranger" is my personal walking song and I think with your preferences, it would be really cool if you put it on while going on a short walk through busy city streets. Madonna's "Like a Prayer" is also a spiritual experience that I think nails the vibe of not having all the answers but seeking them out in order to feel better. They'd probably resonate with you given your current emotional state. Feel free to give these a spin and just vibe.
+                                    </p>
+                                    </>
+                                );
+                                
                             }
                             else{
                                 //Mainstream + Satisfied + Suppress Emotions + Prefer Instrumental + Pop + Modern
-                                
+                                results.push(
+                                    <>
+                                    <p>
+                                        I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are popular bops for a reason. It seems like you're doing relatively well. I'm glad! Based on your answers, it seems like you actually prefer to suppress that happiness rather than feeling it. It's like there's a sinking feeling deep down that things could always get better, even if they're not the best right now. It's the acknowledgement that sometimes we don't need music to reinforce how we feel. You're also someone who really resonates with melody and composition. Whenever I'm feeling more neutral, I'd go for songs with a slight angry vibe but the anger doesn't dampen the energy and danceability of the tunes. Songs like Lady Gaga's "Abracadabra" and MARINA's "The Family Jewels" nail the balance between darkness and light well, with a faster pace juxtaposed with more neutral lyrics emotionally. They'd probably resonate with you given how you are currently feeling. Feel free to give these a spin and dance like no one's watching.
+                                    </p>
+                                    </>
+                                );
                             }
                         }
                         else{
                             if(profile.age === "classic"){
                                 //Indie + Satisfied + Suppress Emotions + Prefer Instrumental + Pop + Classic
-
+                                results.push(
+                                    <>
+                                        <p>You're someone who likes the unconventional, the kind of stuff that has a devoted cult following. Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about listening to an artist and knowing "yeah, this is a tight knit but loyal crowd" you know? Anyway, I feel like you're in a pretty good headspace right now, which I'm glad! It seems that you actually prefer to suppress that happiness rather than feeling it. It's like there's a sinking feeling deep down that things could always get better, even if they're not the best right now. You're also someone who resonates more with composition and the melody of a song. I would recommend a couple of pop songs from the 20th century like "Never Never Gonna Give Ya Up" by Barry White and "Reach Out" by The Four Tops, which nail the balance between positive sounding songs with lyricism about yearning and hoping for a perfect future with the people you love. I think this combination would be good for your current mental state of feeling satisfied but maybe not fully in deep with your emotions.  Feel free to give these songs a spin and just vibe.
+                                        </p>
+                                    </>
+                                );
                             }
                             else{
                                 //Indie + Satisfied + Suppress Emotions + Prefer Instrumental + Pop + Modern
-                                
+                                results.push(
+                                    <>
+                                        <p>You're someone who likes the unconventional, the kind of stuff that has a devoted cult following. Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about listening to an artist and knowing "yeah, this is a tight knit but loyal crowd" you know? Anyway, I feel like you're in a pretty good headspace right now, which I'm glad! It seems that you actually prefer to suppress that happiness rather than feeling it. It's like there's a sinking feeling deep down that things could always get better, even if they're not the best right now. You're also someone who resonates more with composition and the melody of a song. I would recommend a couple of indie pop tunes like Arcade Fire's "Sprawl II" and Weyes Blood's "Andromenda", which have the perfect balance of lyricism about wanting to escape to a better place and time with a danceable positive melody. I think this combination would be good for your current mental state of feeling satisfied but maybe not fully in deep with your emotions. Feel free to give these songs a spin and just vibe.
+                                        </p>
+                                    </>
+                                );
                             }
                         }
                     }
@@ -785,17 +834,43 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
                             //if you prefer classics
                             if(profile.age === "classic"){
                                 //Mainstream + Satisfied + Suppress Emotions + Prefer Lyrics + Pop + Classic
+                                results.push(
+                                    <>
+                                    <p>
+                                        I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are timeless and popular for a reason. It seems like you're doing relatively well. I'm glad! Based on your answers, it seems like you actually prefer to suppress that happiness rather than feeling it. It's like there's a sinking feeling deep down that things could always get better, even if they're not the best right now. It's the acknowledgement that sometimes we don't need music to reinforce how we feel. You're also someone who resonates more with lyrics than melody. In that case, I'd recommend a bunch of '70s baroque pop like Kermit the Frog's "Rainbow Connection" and Carole King's "Jazzman" that hone into the healing power of music and longing for better days. I think this combination would definitely work with your current mental state of feeling satisfied but maybe thinking that things could improve. Feel free to give these a spin and just vibe.
+                                    </p>
+                                    </>
+                                );
                             }
                             else{
                                 //Mainstream + Satisfied + Suppress Emotions + Prefer Lyrics + Pop + Modern
+                                results.push(
+                                    <>
+                                    <p>
+                                        I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are popular bops for a reason. It seems like you're doing relatively well. I'm glad! Based on your answers, it seems like you actually prefer to suppress that happiness rather than feeling it. It's like there's a sinking feeling deep down that things could always get better, even if they're not the best right now. It's the acknowledgement that sometimes we don't need music to reinforce how we feel. You're also someone who resonates more with lyrics than melody. In that case, I'd recommend 2010s electropop. Songs like MGMT's "Kids" and Lorde's "Perfect Places" have the perfect balance of lyricism about wanting to escape to a better place and time with a danceable positive melody. I think this combination would be good for your current mental state of feeling satisfied but maybe not fully in deep with your emotions. Feel free to give these a spin and dance like no one's watching.
+                                    </p>
+                                    </>
+                                );
                             }
                         }
                         else{
                             if(profile.age === "classic"){
                                 //Indie + Satisfied + Suppress Emotions + Prefer Lyrics + Pop + Classic
+                                results.push(
+                                    <>
+                                        <p>You're someone who likes the unconventional, the kind of stuff that has a devoted cult following. Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about listening to an artist and knowing "yeah, this is a tight knit but loyal crowd" you know? Anyway, I feel like you're in a pretty good headspace right now, which I'm glad! It seems that you actually prefer to suppress that happiness rather than feeling it. It's like there's a sinking feeling deep down that things could always get better, even if they're not the best right now. You're also someone who resonates more with lyrics than melody. I would recommend a couple of pop songs from the 20th century like "Downtown" by Petula Clark and "Bittersweet Symphony" by The Verve, which nail the balance between positive sounding songs with lyricism about the search for meaning and hoping for a better tomorrow. II think this combination would be good for your current mental state of feeling satisfied but maybe not fully in deep with your emotions.  Feel free to give these songs a spin and just vibe.
+                                        </p>
+                                    </>
+                                );
                             }
                             else{
                                 //Indie + Satisfied + Suppress Emotions + Prefer Lyrics + Pop + Modern
+                                results.push(
+                                    <>
+                                        <p>You're someone who likes the unconventional, the kind of stuff that has a devoted cult following. Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about listening to an artist and knowing "yeah, this is a tight knit but loyal crowd" you know? Anyway, I feel like you're in a pretty good headspace right now, which I'm glad! It seems that you actually prefer to suppress that happiness rather than feeling it. It's like there's a sinking feeling deep down that things could always get better, even if they're not the best right now. You're also someone who resonates more with lyrics than melody. I would recommend a couple of indie pop tunes like "Shit Show" by Peter McPoland and "She Doesn't Get It" by The Format, which have the perfect balance of lyricism about wanting to escape to a better place and time with a danceable positive melody. I think this combination would be good for your current mental state of feeling satisfied but maybe not fully in deep with your emotions. Feel free to give these songs a spin and just vibe.
+                                        </p>
+                                    </>
+                                );
                             }
                         }
                     }
