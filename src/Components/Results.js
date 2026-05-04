@@ -298,16 +298,25 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
                                     </>
                                 );
                             }
-                            }
                         }
                         else{
                             if(profile.age === "classic"){
                                 //Indie + Satisfied + Feel Emotions + Prefer Instrumental + Rock + Classic
-
+                                results.push(
+                                    <>
+                                    <p>You're someone who likes the unconventional, the kind of stuff that has a cult following Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about going to an indie show and knowing "yeah, this is a tight knit but loyal crowd" you know? It's a bit interesting to cherry pick the non mainstream rock songs of old since, well, technically they're all non mainstream now. It seems like you're doing relatively well. I'm glad! It seems like you prefer to feel that happiness, really resonating with the emotional release that comes with the best of classic rock. Whenever I'm really in the zone and feeling that content, I'd go for some '70s power pop and punk with a bit of a spacey twist. I feel like the way songs like the Records' "Starry Eyes" weave really poppy melodies with the energy of rock and roll helps us resonate with the type of satisfaction we can only feel when we are truly in the zone with our emotions. Feel free to give these a spin and just vibe.
+                                    </p>
+                                    </>
+                                );
                             }
                             else{
                                 //Indie + Satisfied + Feel Emotions + Prefer Instrumental + Rock + Modern
-                                
+                                results.push(
+                                    <>
+                                    <p>You're someone who likes the unconventional, the kind of stuff that has a cult following Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about going to an indie show and knowing "yeah, this is a tight knit but loyal crowd" you know? It seems like you're doing relatively well right now, and I'm glad! Hope everything's going swell with your life. I think you're the type of person who prefers to feel that happiness, resonating with the emotional release that comes with most rock tunes. Whenever I'm in a similar place of mind, I'd go for more theatrical tunes. Stuff like a lot of the music of the Protomen, which in my opinion, is one of the most underrated bands of the 21st century. Their songs definitely have that hopeful energy in the instrumentals and lyrics that can resonate with the desire to keep feeling the happiness while we're in the zone with our emotions. Feel free to give these a spin and vibe out. 
+                                    </p>
+                                    </>
+                                );
                             }
                         }
                     }
@@ -317,17 +326,43 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
                             //if you prefer classics
                             if(profile.age === "classic"){
                                 //Mainstream + Satisfied + Feel Emotions + Prefer Lyrics + Rock + Classic
+                                results.push(
+                                    <>
+                                    <p>
+                                        I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are timeless and popular for a reason. It seems like you're doing relatively well. I'm glad! Hope you're feeling a good sense of stability in your life fight now. Based on your answers, it seems like you prefer to feel that happiness, really resonating with the emotional release that comes with the best of classic rock with lyricism that reinforces that happiness. Some of my favorite and happiest music comes from that era of music. "Don't Stop Me Now" is probably my favorite song of all time, and I genuinely think it has the capability of making your day better. Scientific studies have literally confirmed that that is the happiest song of all time. I think if you're really down to continue riding an emotional high, that song is a must in your playlist. A lot of these anthemic songs are great for getting your blood boiling and your body ready to dance, so feel free to give these a spin and just vibe out :)
+                                    </p>
+                                    </>
+                                );
                             }
                             else{
                                 //Mainstream + Satisfied + Feel Emotions + Prefer Lyrics + Rock + Modern
+                                results.push(
+                                    <>
+                                    <p>
+                                        I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are popular bops for a reason. It seems like you're doing relatively well. I'm glad! Hope you're feeling a good sense of stability in your life fight now. Based on your answers, it seems like you prefer to feel that happiness, really resonating with the emotional release that comes with the best lyricsm of some serious pop punk bangers. I personally think "Weightless" and "The Great Escape" can really bring you into that nostalgic headspace and brighten your spirits with lyrics about just being 18 and free again. You should definitely put these tunes on and just dance like no one's watching. It's a really good way to resonate with your emotions and be in the zone. Feel free to give these a spin and just vibe out :)
+                                    </p>
+                                    </>
+                                );
                             }
                         }
                         else{
                             if(profile.age === "classic"){
                                 //Indie + Satisfied + Feel Emotions + Prefer Lyrics + Rock + Classic
+                                results.push(
+                                    <>
+                                    <p>You're someone who likes the unconventional, the kind of stuff that has a cult following Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about going to an indie show and knowing "yeah, this is a tight knit but loyal crowd" you know? It's a bit interesting to cherry pick the non mainstream rock songs of old since, well, technically they're all non mainstream now. It seems like you're doing relatively well. I'm glad! It seems like you prefer to feel that happiness, specifically that of songs where the lyrics are a straight dose of seratonin to the veins. Whenever I really want to resonate with positive lyricism, I'd probably turn to '90s rock. Weezer gets meme'd on a lot, but they're a really good power pop band to just vibe to. Oasis' "Don't Look Back in Anger" is one of those songs that just radiates hope with its titular call to action. I feel like these songs are great for resonating with your emotions and just being in the zone. Feel free to give these a spin and just vibe.
+                                    </p>
+                                    </>
+                                );
                             }
                             else{
                                 //Indie + Satisfied + Feel Emotions + Prefer Lyrics + Rock + Modern
+                                results.push(
+                                    <>
+                                    <p>You're someone who likes the unconventional, the kind of stuff that has a cult following Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about going to an indie show and knowing "yeah, this is a tight knit but loyal crowd" you know? It seems like youo're doing relatively well right now, and I'm glad! I hope everything is going swell with your life at the moment. Based on your answers, it seems you prefer to feel that happiness through some well crafted lyrics that reinforce the satisfaction that you are feeling. There's a lot of good modern rock songs that are a huge dose of seratonin to the veins. For songs that sound like they radiate pure sunshine, I would definitely recommend the entirety of <i>Good Nature</i> by Turnover. I recently got into them, and a lot of their more recent material is the epitome of good vibes, in both music and lyrics. Sometimes it really helps to listen to songs where the words perfectly align with your current emotion, and I think these might align with what you want at this point in time. Feel free to give these a spin and just vibe.
+                                    </p>
+                                    </>
+                                );
                             }
                         }
                     }
@@ -339,21 +374,43 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
                             //if you prefer classics
                             if(profile.age === "classic"){
                                 //Mainstream + Satisfied + Suppress Emotions + Prefer Instrumental + Rock + Classic
-
+                                 results.push(
+                                    <>
+                                    <p>
+                                        I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are timeless and popular classics for a reason. It seems like you're doing relatively well. I'm glad to hear that! I Hope you're feeling a good sense of stability in your life fight now. Based on your answers, it seems like you actually would rather prefer to suppress that happiness, rather than feeling it. It's like there's a sinking feeling deep down that things could always get better, even if they're not the best right now. It's the acknowledgement that sometimes we don't need music to reinforce how we feel.  In this case, I'd actually go for more angry material. material that's angry enough to be a bit edgy but also has enough of a cool vibe to dilute the negativity. I'll recommend some older rock tunes like Garbage's "Only Happy When it Rains" which the title alone I feel really hits that sweet spot of how you might be feeling. It's got just enough of a balance between the positive and negative emotions, and neither dampen the pure energy the song has. Feel free to give these a spin and just vibe to the ragers.
+                                    </p>
+                                    </>
+                                );
                             }
                             else{
                                 //Mainstream + Satisfied + Suppress Emotions + Prefer Instrumental + Rock + Modern
-                                
+                                results.push(
+                                    <>
+                                    <p>
+                                        I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are popular bangers for a reason. It seems like you're doing relatively well. I'm glad to hear that! I Hope you're feeling a good sense of stability in your life fight now. Based on your answers, it seems like you actually would rather prefer to suppress that happiness, rather than feeling it. It's like there's a sinking feeling deep down that things could always get better, even if they're not the best right now. It's the acknowledgement that sometimes we don't need music to reinforce how we feel.  In this case, I'd actually go for more angry material. material that's angry enough to be a bit edgy but also has enough of a cool vibe to dilute the negativity. I'll recommend some tunes like "Flourescent Adolescent" by Arctic Monkeys and "Lonely Boy" by The Black Keys which are both simply badass modern rockers are kinda downer and relatable as hell, but bouncy enough to distract from them. They have just enough of a balance between the positive and negative emotions, and neither dampen the pure energy these songs have. Feel free to give these a spin and just vibe to the ragers.
+                                    </p>
+                                    </>
+                                );
                             }
                         }
                         else{
                             if(profile.age === "classic"){
                                 //Indie + Satisfied + Suppress Emotions + Prefer Instrumental + Rock + Classic
-
+                                results.push(
+                                    <>
+                                    <p>You're someone who likes the unconventional, the kind of stuff that has a cult following Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about going to an indie show and knowing "yeah, this is a tight knit but loyal crowd" you know? It's a bit interesting to cherry pick the non mainstream rock songs of old since, well, technically they're all non mainstream now. It seems like you're doing relatively well. I'm glad! Based on your answers, it seems like you actually would rather prefer to suppress that happiness, rather than feeling it.  It's like there's a sinking feeling deep down that things could always get better, even if they're not the best right now. It's the acknowledgement that sometimes we don't need music to reinforce how we feel. We listen for fun, regardless of the emotion evoked by the song. Times like this are where I go for classic rock songs that are a bit more restless and more reserved emotionally. Songs like Focus' "Sylvia" and the Bangles' "Hazy Shade of Winter" nail the bouncy yet slightly melancholy aesthetic that would probably resonate when you want to let loose with pure energy without relying on the songs as an emotional crutch. There's just enough of a balance between the positive and negative emotions and neither dampen the pure energy these songs have. Give these a spin and just vibe to them.
+                                    </p>
+                                    </>
+                                );
                             }
                             else{
                                 //Indie + Satisfied + Suppress Emotions + Prefer Instrumental + Rock + Modern
-                                
+                                results.push(
+                                    <>
+                                    <p>You're someone who likes the unconventional, the kind of stuff that has a cult following Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about going to an indie show and knowing "yeah, this is a tight knit but loyal crowd" you know? It seems like you're doing relatively well. I'm glad! Based on your answers, it seems like you actually would rather prefer to suppress that happiness, rather than feeling it.  It's like there's a sinking feeling deep down that things could always get better, even if they're not the best right now. It's the acknowledgement that sometimes we don't need music to reinforce how we feel. We listen for fun, regardless of the emotion evoked by the song. Whenever I don't really care to validate my emotions and I'm in a mood to just vibe neutrally, I'd probably go for modern theatrical rock. Particularly songs with a more horror aesthetic like Creeper's "Black Moon" and Ghost's "Dance Macabre." The blend of horror imagery with energetic melodies creates enough of a great contrast that I think it would really appeal to you when you're searching for a pure instrumental release without relying on the songs as an emotional crutch. There's just enough of a balance between the positive and negative emotions and neither dampen the pure energy these songs have. Give these a spin and just vibe to them.
+                                    </p>
+                                    </>
+                                );
                             }
                         }
                     }
@@ -363,17 +420,43 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
                             //if you prefer classics
                             if(profile.age === "classic"){
                                 //Mainstream + Satisfied + Suppress Emotions + Prefer Lyrics + Rock + Classic
+                                results.push(
+                                    <>
+                                    <p>
+                                        I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are timeless and popular classics for a reason. It seems like you're doing relatively well. I'm glad to hear that! I Hope you're feeling a good sense of stability in your life fight now. Based on your answers, it seems like you actually would rather prefer to suppress that happiness, rather than feeling it. It's like there's a sinking feeling deep down that things could always get better, even if they're not the best right now. It's the acknowledgement that sometimes we don't need music to reinforce how we feel. You're also someone who resonates more with lyrics than melody. We listen for fun, regardless of the emotion evoked by the song. Times like this are where I go for classic rock songs that are more nostalgic and bittersweet in sound. Stuff like Smashing Pumpkins' "1979" and Springsteen's "Thunder Road" both would fit the bill for me on songs that epitomize the want for a better tomorrow and longing for a distant past. There's just enough of a balance between the positive and negative emotions and neither dampen the pure energy these songs have. Give these a spin and just vibe to them.
+                                    </p>
+                                    </>
+                                );
                             }
                             else{
                                 //Mainstream + Satisfied + Suppress Emotions + Prefer Lyrics + Rock + Modern
+                                results.push(
+                                    <>
+                                    <p>
+                                        I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are popular bangers for a reason. It seems like you're doing relatively well. I'm glad to hear that! I Hope you're feeling a good sense of stability in your life fight now. Based on your answers, it seems like you actually would rather prefer to suppress that happiness, rather than feeling it. It's like there's a sinking feeling deep down that things could always get better, even if they're not the best right now. It's the acknowledgement that sometimes we don't need music to reinforce how we feel. We listen for fun, regardless of the emotion evoked by the song. You're also someone who resonates more with lyrics than melody. Whenever I don't really care to validate my emotions, there's a lot of options out there for good modern rock songs. Some highlights I can offer include The Killers' "Caution" and Paramore's "Looking Up." There's just enough of a balance between the positive and negative emotions and neither dampen the pure energy these songs have. Give these a spin and just vibe to them.
+                                    </p>
+                                    </>
+                                );
                             }
                         }
                         else{
                             if(profile.age === "classic"){
                                 //Indie + Satisfied + Suppress Emotions + Prefer Lyrics + Rock + Classic
+                                results.push(
+                                    <>
+                                    <p>You're someone who likes the unconventional, the kind of stuff that has a cult following Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about going to an indie show and knowing "yeah, this is a tight knit but loyal crowd" you know? It's a bit interesting to cherry pick the non mainstream rock songs of old since, well, technically they're all non mainstream now. It seems like you're doing relatively well. I'm glad! Based on your answers, it seems like you actually would rather prefer to suppress that happiness, rather than feeling it. You're also someone who resonates more with lyrics than melody. It's like there's a sinking feeling deep down that things could always get better, even if they're not the best right now. It's the acknowledgement that sometimes we don't need music to reinforce how we feel. We listen for fun, regardless of the emotion evoked by the song. Times like this are where I go for classic power pop songs that are more nostalgic and bittersweet in sound. "Up The Junction" and "Another Girl, Another Planet" both would fit the bill for me on songs that epitomize the combination of a bittersweet and slightly downbeat tone with a happy instrumental. There's just enough of a balance between the positive and negative emotions and neither dampen the pure energy these songs have. Give these a spin and just vibe to them.
+                                    </p>
+                                    </>
+                                );
                             }
                             else{
                                 //Indie + Satisfied + Suppress Emotions + Prefer Lyrics + Rock + Modern
+                                results.push(
+                                    <>
+                                    <p>You're someone who likes the unconventional, the kind of stuff that has a cult following Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about going to an indie show and knowing "yeah, this is a tight knit but loyal crowd" you know? It seems like you're doing relatively well. I'm glad! Based on your answers, it seems like you actually would rather prefer to suppress that happiness, rather than feeling it.  It's like there's a sinking feeling deep down that things could always get better, even if they're not the best right now. You're also someone who resonates more with lyrics than melody. It's the acknowledgement that sometimes we don't need music to reinforce how we feel. We listen for fun, regardless of the emotion evoked by the song. Whenever I don't really care to validate my emotions and I'm in a mood to just vibe neutrally, I'd probably go for 2010s pop punk. Songs like Waterparks' "Hawaii" and Matt Skiba's "Voices" are incredibly well composed bangers where there's just enough of a balance between the positive and negative emotions, and neither dampen the pure energy these songs have. They're good if you're feeling alright at the moment and want the adrenaline release but don't care about honing in on any particular feeling in your life right now. Feel free to give these a spin and just vibe.
+                                    </p>
+                                    </>
+                                );
                             }
                         }
                     }
