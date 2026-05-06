@@ -142,7 +142,11 @@ h2{
   background-color: gray;
 }
 
-
+.disclaimer{
+  display:flex;
+  justify-content: flex-end;
+  font-size:12px;
+}
 
 body {
   margin: 0;

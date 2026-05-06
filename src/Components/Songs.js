@@ -51,13 +51,13 @@ export const songs = [
     },
     {
         results: ["indie", "high", "feel", "lyrics", "hiphopelectronica", "classic"],
-        reccs: ["", "", ""],
+        reccs: ["Mad About You - Hooverphonic", "Porcelain - Moby", "Aquarius - Boards of Canada"],
         links: ["", "", ""]
     },
     {
         results: ["indie", "high", "feel", "lyrics", "hiphopelectronica", "modern"],
-        reccs: ["Wait - M83", "Nothing Feels the Same - Sevenlies", "Waiting for You - alixe & Antent"],
-        links: ["https://open.spotify.com/track/3rTnGUeDrnZV22DvRuUuXr?si=d296de90db594706", "https://open.spotify.com/track/1U6d7ADDvtH5dkIWVCgX06?si=a2d3613c4dd949c8", "https://open.spotify.com/track/1nGKfocGeT7BaF4mv4eoPT?si=8fc9989dcee64777"]
+        reccs: ["Wait - M83", "Space Song - Beach House", "Tangerine - Frank Sativa"],
+        links: ["https://open.spotify.com/track/3rTnGUeDrnZV22DvRuUuXr?si=d296de90db594706", "https://open.spotify.com/track/7H0ya83CMmgFcOhw0UB6ow?si=35119acd7e2e4ce2", "https://open.spotify.com/track/16ZFRxfzSEyjBtGSX8JzWj?si=4448bb27590341ff"]
     },
     {
         results: ["mainstream", "high", "feel", "music", "pop", "classic"],
@@ -116,8 +116,8 @@ export const songs = [
     },
     {
         results: ["indie", "high", "feel", "music", "hiphopelectronica", "modern"],
-        reccs: ["Simpsonwave1995 - FrankJavCee", "Space Song - Beach House", "Letitbeleaveit - Lxoney"],
-        links: ["https://open.spotify.com/track/0qqRNnwh86N1XBV94GVgQN?si=7d115e3558cf4c0d", "https://open.spotify.com/track/7H0ya83CMmgFcOhw0UB6ow?si=14824d9845a34f0e", "https://open.spotify.com/track/22oZ1huYekozYTtUViITmB?si=073fcfa2cc2f4ff5"]
+        reccs: ["Simpsonwave1995 - FrankJavCee", "Nothing Feels the Same - Sevenlies", "Waiting for You - alixe & Antent"],
+        links: ["https://open.spotify.com/track/0qqRNnwh86N1XBV94GVgQN?si=7d115e3558cf4c0d", "https://open.spotify.com/track/1U6d7ADDvtH5dkIWVCgX06?si=33255a06a1334448", "https://open.spotify.com/track/1nGKfocGeT7BaF4mv4eoPT?si=e923b62cef7244e1"]
     },
     {
         results: ["mainstream", "high", "suppress", "lyrics", "pop", "classic"],
@@ -141,8 +141,8 @@ export const songs = [
     },
     {
         results: ["mainstream", "high", "suppress", "lyrics", "hiphopelectronica", "classic"],
-        reccs: ["Rabbit In Your Headlights - UNKLE", "6 Underground - Sneaker Pimps", "Hell is Round the Corner - Tricky"],
-        links: ["https://open.spotify.com/track/6CQiD0STiKFsjSdVKtztjJ?si=af85f40e3e8a416c", "https://open.spotify.com/track/5SJ7mZ4HZWbhFcHpBvHU55?si=2af1553d64b7437f", "https://open.spotify.com/track/2wC0qK8JN6gblb0ZJzE2d9?si=3fb1b54e5d514d80"]
+        reccs: ["Rabbit In Your Headlights - UNKLE", "6 Underground - Sneaker Pimps", "Sour Times - Portishead"],
+        links: ["https://open.spotify.com/track/6CQiD0STiKFsjSdVKtztjJ?si=af85f40e3e8a416c", "https://open.spotify.com/track/5SJ7mZ4HZWbhFcHpBvHU55?si=2af1553d64b7437f", "https://open.spotify.com/track/6vTtCOimcPs5H1Jr9d0Aep?si=7df74aea337a4006"]
     },
     {
         results: ["mainstream", "high", "suppress", "lyrics", "hiphopelectronica", "modern"],
@@ -171,13 +171,13 @@ export const songs = [
     },
     {
         results: ["indie", "high", "suppress", "lyrics", "hiphopelectronica", "classic"],
-        reccs: ["", "", ""],
-        links: ["", "", ""]
+        reccs: ["End to End Burners - Company Flow", "I Against I - Jedi Mind Tricks", "Hell is Round the Corner - Tricky"],
+        links: ["", "", "https://open.spotify.com/track/2wC0qK8JN6gblb0ZJzE2d9?si=3fb1b54e5d514d80"]
     },
     {
         results: ["indie", "high", "suppress", "lyrics", "hiphopelectronica", "modern"],
-        reccs: ["", "", ""],
-        links: ["", "", ""]
+        reccs: ["Still Life - Sitcom", "Traingazing - Sam Wills", "Think It Over - New Constellations"],
+        links: ["https://open.spotify.com/track/69PcaJEZMB3cCfCeRSibj2?si=77c11e2394b24784", "https://open.spotify.com/track/3WaNEoMh1pCLufz2fbLBAE?si=96c999e18fb44352", "https://open.spotify.com/track/07mInqypQcgWuoLOpAqLUT?si=e86d9f84e2eb4d36"]
     },
     {
         results: ["mainstream", "high", "suppress", "music", "pop", "classic"],
@@ -201,8 +201,8 @@ export const songs = [
     },
     {
         results: ["mainstream", "high", "suppress", "music", "hiphopelectronica", "classic"],
-        reccs: ["", "", "Street Dreams - Nas"],
-        links: ["", "", ""]
+        reccs: ["Valley of the Shadows - Origin Unknown", "Inner City Life - Goldie", "Street Dreams - Nas"],
+        links: ["", "", "https://open.spotify.com/track/0QnGI4OgY8ReggLWvEXdgD?si=a9fb7814cdfc483f"]
     },
     {
         results: ["mainstream", "high", "suppress", "music", "hiphopelectronica", "modern"],
@@ -231,8 +231,8 @@ export const songs = [
     },
     {
         results: ["indie", "high", "suppress", "music", "hiphopelectronica", "classic"],
-        reccs: ["", "", "LFO (Leeds Warehouse Mix) - LFO"],
-        links: ["", "", ""]
+        reccs: ["Don’t Go - Yazoo", "Enjoy the Silence - Depeche Mode", "LFO (Leeds Warehouse Mix) - LFO"],
+        links: ["https://open.spotify.com/track/3KuAa8Y79xlfJgYtBKbynY?si=515ed465a6e84b84", "https://open.spotify.com/track/1JekRMGQ8iN4G1AAdh0SBa?si=897c634dd26c41cd", "https://open.spotify.com/track/5AMGYRhiqZoCYkJEK3yqgi?si=c4f3210c4dfb486c"]
     },
     {
         results: ["indie", "high", "suppress", "music", "hiphopelectronica", "modern"],
@@ -261,13 +261,13 @@ export const songs = [
     },
     {
         results: ["mainstream", "low", "feel", "lyrics", "hiphopelectronica", "classic"],
-        reccs: ["", "", ""],
+        reccs: ["Good Life - Inner City", "Everybody’s Free - Rozalla", "Eye Know - De La Soul"],
         links: ["", "", ""]
     },
     {
         results: ["mainstream", "low", "feel", "lyrics", "hiphopelectronica", "modern"],
-        reccs: ["L$D - A$AP Rocky", "", ""],
-        links: ["", "", ""]
+        reccs: ["L$D - A$AP Rocky", "Wake Me Up - Avicii", "Nothing’s Gonna Hurt You Baby - Cigarettes After Sex"],
+        links: ["https://open.spotify.com/track/4S7YHmlWwfwArgd8LfSPud?si=3b52417d9a0d4161", "https://open.spotify.com/track/0nrRP2bk19rLc0orkWPQk2?si=5e17846373494404", "https://open.spotify.com/track/3W7KHojYGgYaoX9ogKO9hU?si=f2e96d73b7eb4e69"]
     },
     {
         results: ["indie", "low", "feel", "lyrics", "pop", "classic"],
@@ -291,13 +291,13 @@ export const songs = [
     },
     {
         results: ["indie", "low", "feel", "lyrics", "hiphopelectronica", "classic"],
-        reccs: ["", "", ""],
+        reccs: ["For Love - Lush", "Sweet Harmony - The Beloved", "Heaven or Las Vegas - Cocteau Twins"],
         links: ["", "", ""]
     },
     {
         results: ["indie", "low", "feel", "lyrics", "hiphopelectronica", "modern"],
-        reccs: ["", "", "Sunset - The Midnight"],
-        links: ["", "", ""]
+        reccs: ["Lions - Lights", "Get Out - Chvrches", "Sunset - The Midnight"],
+        links: ["https://open.spotify.com/track/32ceIiXenydEk8qHjoeO7V?si=cba1b5abaefd4a5a", "https://open.spotify.com/track/2tljkQHsxAunR4yZKKBUF5?si=a32560e4af6b49d1", "https://open.spotify.com/track/6mB9A9YLbY4jxpKX5EYAnT?si=2a98a22b735e422d"]
     },
     {
         results: ["mainstream", "low", "feel", "music", "pop", "classic"],
@@ -321,7 +321,7 @@ export const songs = [
     },
     {
         results: ["mainstream", "low", "feel", "music", "hiphopelectronica", "classic"],
-        reccs: ["Around the World - Daft Punk", "", ""],
+        reccs: ["Around the World - Daft Punk", "Block Rockin’ Beats - The Chemical Brothers", "Rhythm of the Night - Corona"],
         links: ["https://open.spotify.com/track/1pKYYY0dkg23sQQXi0Q5zN?si=591de3cb38c847bf", "", ""]
     },
     {
@@ -351,13 +351,13 @@ export const songs = [
     },
     {
         results: ["indie", "low", "feel", "music", "hiphopelectronica", "classic"],
-        reccs: ["", "", "Computer Love - Kraftwerk"],
-        links: ["", "", ""]
+        reccs: ["Love on a Real Train - Tangerine Dream", "Slip - Autechre", "Computer Love - Kraftwerk"],
+        links: ["", "", "https://open.spotify.com/track/7CZdd0S4WTktuiiARS8pY4?si=0d3d6888d6784b3a"]
     },
     {
         results: ["indie", "low", "feel", "music", "hiphopelectronica", "modern"],
-        reccs: ["Starlight Brigade - TWRP", "The Comeback Kid - The Midnight", "Wonderland - Chvrches"],
-        links: ["https://open.spotify.com/track/2HVie6QZfnDS2HVQiGZwU6?si=2b0692c7338f4b08", "https://open.spotify.com/track/58COsyYbJwWlKmVM5eAYlB?si=0e8463ac772d4150", "https://open.spotify.com/track/7f15VUCPGNyYC9cVe6sEqn?si=18925af3ff7242aa"]
+        reccs: ["Midnight Ride - Orville Peck", "Unity - TheFatCat", "Hyper Beam - MDK"],
+        links: ["https://open.spotify.com/track/6J26td5uctWg0UlzdzCj7Y?si=fb2f709b042b4da8", "https://open.spotify.com/track/4QLjLmiBMEprh7NaGUWxl9?si=46ce798395a14c51", "https://open.spotify.com/track/5TZPK52ptdah7vPCyPz4nb?si=4d6d8d78910f40ae"]
     },
     {
         results: ["mainstream", "low", "suppress", "lyrics", "pop", "classic"],
@@ -377,17 +377,17 @@ export const songs = [
     {
         results: ["mainstream", "low", "suppress", "lyrics", "rock", "modern"],
         reccs: ["Looking Up - Paramore","Black Butterflies and Deja Vu - The Maine","Caution - The Killers"],
-        links: ["", "", ""]
+        links: ["https://open.spotify.com/track/3mzV0WDATjcpzcTNK2TLJw?si=13ec23ce31a54f80", "https://open.spotify.com/track/6QZ8h3RqIgTRTo3hfaqryx?si=61a4cb724ad24851", "https://open.spotify.com/track/111HOSfnPX1mCxwwb49BCY?si=5dd16839da744d56"]
     },
     {
         results: ["mainstream", "low", "suppress", "lyrics", "hiphopelectronica", "classic"],
-        reccs: ["", "", ""],
+        reccs: ["Hug My Soul - Saint Etienne", "Joga - Bjork", "Walking Wounded - Everything But The Girl"],
         links: ["", "", ""]
     },
     {
         results: ["mainstream", "low", "suppress", "lyrics", "hiphopelectronica", "modern"],
         reccs: ["City Lights - Avicii","Titanium - David Guetta","On My Way - Alan Walker"],
-        links: ["", "", ""]
+        links: ["https://open.spotify.com/track/35j3CjgBRoqLp8LsAKsQF4?si=abce89f9f7f546ab", "", ""]
     },
     {
         results: ["indie", "low", "suppress", "lyrics", "pop", "classic"],
@@ -396,7 +396,7 @@ export const songs = [
     },
     {
         results: ["indie", "low", "suppress", "lyrics", "pop", "modern"],
-        reccs: ["Shit Show - Peter McPoland","","Tired Boy - Sunday (1994)"],
+        reccs: ["Shit Show - Peter McPoland","She Doesn’t Get It - The Format","Tired Boy - Sunday (1994)"],
         links: ["", "", ""]
     },
     {
@@ -411,13 +411,13 @@ export const songs = [
     },
     {
         results: ["indie", "low", "suppress", "lyrics", "hiphopelectronica", "classic"],
-        reccs: ["", "", ""],
-        links: ["", "", ""]
+        reccs: ["Are Friends Electric - Tubeway Army", "Just Can’t Get Enough - Depeche Mode", "Only You - Yazoo"],
+        links: ["", "", "https://open.spotify.com/track/3mGwufkovVPrzsJaXWg8PU?si=9fb146e6efab4a27"]
     },
     {
         results: ["indie", "low", "suppress", "lyrics", "hiphopelectronica", "modern"],
-        reccs: ["", "", "s"],
-        links: ["", "", ""]
+        reccs: ["Starlight Brigade - TWRP", "The Comeback Kid - The Midnight", "Wonderland - Chvrches"],
+        links: ["https://open.spotify.com/track/2HVie6QZfnDS2HVQiGZwU6?si=2b0692c7338f4b08", "https://open.spotify.com/track/58COsyYbJwWlKmVM5eAYlB?si=0e8463ac772d4150", "https://open.spotify.com/track/7f15VUCPGNyYC9cVe6sEqn?si=18925af3ff7242aa"]
     },
     {
         results: ["mainstream", "low", "suppress", "music", "pop", "classic"],
@@ -441,7 +441,7 @@ export const songs = [
     },
     {
         results: ["mainstream", "low", "suppress", "music", "hiphopelectronica", "classic"],
-        reccs: ["", "", ""],
+        reccs: ["Daydream in Blue - I Monster", "Big Calm - Morcheeba", "Fun For Me - Moloko"],
         links: ["", "", ""]
     },
     {

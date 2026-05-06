@@ -93,14 +93,22 @@ const Quiz = () => {
                 <div className="container">
                     <h1>Emotichord song recommender</h1>
                     <hr/>
-                    <p>Welcome to the <i>Emotichord</i> song recommender, a musical therapy quiz meant to act as a mental wellness check that simultaneously gives you a handful of songs based on how you're currently feeling.</p>
+                    <p>Hey, welcome to the <i>Emotichord</i> song recommender. This is a musical therapy quiz meant to act as a mental wellness check where I'll also give you a handful of song recommendations based on how you're currently feeling. I would also like to preface this with the fact that I am not a therapist, but I can at least gauge how you prefer to process your emotions based on our conversation.</p>
                     <button onClick={() => setStarted(true)}>Begin</button>
+                    <p className="disclaimer">...and absolutely no one invited AI to this conversation.</p>
                 </div>
             ) : !isCompleted ? (
                 <div className="container">
                     <h1>Mental Wellness Recommender</h1>
                     <hr/>
-                    <h2>{questions.question}</h2>
+                    <h2>
+                        {questions.question.split("<br/>").map((line, i) => (
+                            <span key={i}>
+                            {line}
+                            <br />
+                            </span>
+                        ))}
+                    </h2>
                     
                     <ul>
                         {questions.options.map((option, index) => (
