@@ -915,7 +915,12 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
                             //if you prefer classics
                             if(profile.age === "classic"){
                                 //Mainstream + Depression + Feel Emotions + Prefer Instrumental + Hiphop/electronica + Classic
-
+                                results.push(
+                                    <>
+                                        <p>I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are timeless popular for a reason. I know it seems like you're not really in the best headspace right now, and I'm sorry about that. I won't say what the right way with dealing with all of that stuff is, but whenever I want to process my feelings in a lower stakes way, I think the groovier early '90s hip-hop scene is good for relaxing and giving the proper space to process the negativity. You're in the same boat here as someone who really wants to mellow aout and just feel the vibe of a song. Stuff that is a bit downer like Scarface and Warren G, but are laid back in their beats really exemplify that vibe. Sit back and give these tunes a spin, maybe they'll help you to feel out your emotions and embrace them.
+                                    </p>
+                                    </>
+                                );
                             }
                             else{
                                 //Mainstream + Depression + Feel Emotions + Prefer Instrumental + Hiphop/electronica + Modern
@@ -934,7 +939,12 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
                             }
                             else{
                                 //Indie + Depression + Feel Emotions + Prefer Instrumental + Hiphop/electronica + Modern
-                                
+                                 results.push(
+                                    <>
+                                        <p>You're someone who likes the unconventional, the kind of stuff that really resonates with a cult following. Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about listening to an artist and knowing "yeah, this is a tight knit but loyal crowd" you know? Anyway, I know it seems like you're not really in the best headspace right now, and I'm sorry about that. I won't say what the right way with dealing with all of that stuff is, but whenever I want to process my feelings in a lower stakes way, I think the more lush production of ambient dreampop electronica fits the bill. You're in the same boat here as someone who really wants to mellow aout and just feel the vibe of a song. Songs like Beach House's "Space Song" and Frank Sativa's "Tangerine" are really mellow and scratch that itch of lying on the floor and feeling like garbage while giving you the zone to resonate with yourself. Sit back and give these tunes a spin, maybe they'll help you to feel out your emotions and embrace them.
+                                    </p>
+                                    </>
+                                );
                             }
                         }
                     }
@@ -1013,6 +1023,7 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
                             }
                             else{
                                 //Indie + Depression + Suppress Emotions + Prefer Lyrics + Hiphop/electronica + Modern
+                           
                             }
                         }
                     }
