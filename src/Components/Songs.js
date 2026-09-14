@@ -51,8 +51,8 @@ export const songs = [
     },
     {
         results: ["indie", "high", "feel", "lyrics", "hiphopelectronica", "classic"],
-        reccs: ["Mad About You - Hooverphonic", "Porcelain - Moby", "Aquarius - Boards of Canada"],
-        links: ["", "", ""]
+        reccs: ["Mad About You - Hooverphonic", "Porcelain - Moby", "Overcome - Tricky"],
+        links: ["", "", "https://open.spotify.com/track/0tYEsmdrsv5Fi3UOn58bou?si=6488ef2e72174d34"]
     },
     {
         results: ["indie", "high", "feel", "lyrics", "hiphopelectronica", "modern"],
@@ -111,8 +111,8 @@ export const songs = [
     },
     {
         results: ["indie", "high", "feel", "music", "hiphopelectronica", "classic"],
-        reccs: ["Overcome - Tricky", "Void Memory One - Steve Roach", "Late October - Harold Budd"],
-        links: ["https://open.spotify.com/track/0tYEsmdrsv5Fi3UOn58bou?si=6488ef2e72174d34", "https://open.spotify.com/track/14WNtS8wfcYuqhaXvlxhmF?si=030d9f813a534d42", "https://open.spotify.com/track/2Ef5Vgw0ShuKGoNfO6Nrof?si=8af68e087a164c12"]
+        reccs: ["Aquarius - Boards of Canada", "Void Memory One - Steve Roach", "Late October - Harold Budd"],
+        links: ["https://open.spotify.com/track/08EgS4Nqe1jPkI9tx9Dq3S?si=2fbc60a6469a43b2", "https://open.spotify.com/track/14WNtS8wfcYuqhaXvlxhmF?si=030d9f813a534d42", "https://open.spotify.com/track/2Ef5Vgw0ShuKGoNfO6Nrof?si=8af68e087a164c12"]
     },
     {
         results: ["indie", "high", "feel", "music", "hiphopelectronica", "modern"],

@@ -898,7 +898,7 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
             else{
                 results.push(
                     <>
-                        <p>
+                        <p>I think you'd enjoy the more modern tunes. In a digital age, there is no limit to the music we can make with just our laptops and a dream. I've definitely softened on the idea that great music does not need acoustic elements to be great, and there's a whole vast universe diverse in dynamics, genres, and soundscapes crafted with hip hop or other synth based genres.
                         </p>
                     </>
                 );
@@ -915,7 +915,12 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
                             //if you prefer classics
                             if(profile.age === "classic"){
                                 //Mainstream + Depression + Feel Emotions + Prefer Instrumental + Hiphop/electronica + Classic
-
+                                results.push(
+                                    <>
+                                        <p>I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are popular for a reason. It seems like you're not really in the best headspace right now, and I'm sorry about that. I won't say what the right way of dealing with all that is, but for me, whenever I want to process my feelings, I'd go for avant-garde '90s electronica. I find that artists like Portishead and Aphex Twin are good night cruising songs for when you feel like you'd rather just be deep in thought and in with your feelings. You seem like you'd prefer older material but with a slight modern edge, so this genre would be really good to just be in the zone for. Give these a listen, and I feel like they'd be good for just lifting your spirits up for a little while longer.
+                                        </p>
+                                    </>
+                                );
                             }
                             else{
                                 //Mainstream + Depression + Feel Emotions + Prefer Instrumental + Hiphop/electronica + Modern
@@ -930,11 +935,21 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
                         else{
                             if(profile.age === "classic"){
                                 //Indie + Depression + Feel Emotions + Prefer Instrumental + Hiphop/electronica + Classic
-
+                                results.push(
+                                    <>
+                                        <p>You're someone who likes the unconventional, the kind of stuff that has a devoted cult following. Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about listening to an artist and knowing "yeah, this is a tight knit but loyal crowd" you know? Anyway, I feel like you're probably not in the best headspace right now. I won't say what the right way of dealing with all that is, but for me, whenever I want to process my feelings in a lower stakes way, I like to put on stuff that's basically ambient soundscapes so I can give the proper time and space for myself to process this negativity. I think you're in the same boat as someone who really wants to mellow out and just feel the vibe of a song. Since you also prefer the older stuff from artists before the new millennium, I'd point you to the works of Steve Roach and Harold Budd. The avant garde soundscapes these artists craft are the perfect soundtrack for you to just lie down, close your eyes, and process all that negativity in your mind. Sit back, give these tunes and spin, and really give them the space to just feel out your emotions and embrace them.
+                                        </p>
+                                    </>
+                                );
                             }
                             else{
                                 //Indie + Depression + Feel Emotions + Prefer Instrumental + Hiphop/electronica + Modern
-                                
+                                results.push(
+                                <>
+                                        <p>You're someone who likes the unconventional, the kind of stuff that has a devoted cult following. Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about listening to an artist and knowing "yeah, this is a tight knit but loyal crowd" you know? Anyway, I feel like you're probably not in the best headspace right now. I won't say what the right way of dealing with all that is, but for me, whenever I want to process my feelings in a lower stakes way, I like to put on stuff that's more synth and ambient based just to relax and give the proper time and space for myself to process this negativity. I think you're in the same boat as someone who really wants to mellow out and just feel the vibe of a song. You also prefer the newer indie material, and I think you might vibe with specifically the kind of ambient that can accompany ambient YouTube playlists with video titles that are oddly specific yet hit way too close to home. TItles like 'songs that play when you're depressed on a caffienated high and you cant sleep at 3AM." Sit back, give these tunes and spin, and really give them the space to just feel out your emotions and embrace them.
+                                        </p>
+                                </>
+                                );
                             }
                         }
                     }
@@ -944,17 +959,41 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
                             //if you prefer classics
                             if(profile.age === "classic"){
                                 //Mainstream + Depression + Feel Emotions + Prefer Lyrics + Hiphop/electronica + Classic
+                                results.push(
+                                <>
+                                    <p>I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are timeless and popular for a reason. I know it seems like you're not really in the best headspace right now, and I'm sorry about that. I won't say what the right way with dealing with all of that stuff is, but whenever I want to process my feelings in a lower stakes way, I think the groovier early '90s hip-hop scene is good for relaxing and giving the proper space to process the negativity. You're in the same boat here as someone who really wants to mellow out and just feel the emotions in the words of a song. Stuff that is a bit downer like Scarface and Warren G, but are laid back in their beats really exemplify that vibe. Sit back and give these tunes a spin, maybe they'll help you to feel out your emotions and embrace them.
+                                    </p>
+                                </>
+                                );
                             }
                             else{
                                 //Mainstream + Depression + Feel Emotions + Prefer Lyrics + Hiphop/electronica + Modern
+                                results.push(
+                                    <>
+                                        <p>I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are popular for a reason. I know it seems like you're not really in the best headspace right now, and I'm sorry about that. I won't say what the right way of dealing with all that is, but for me, whenever I want to process my feelings in a lower stakes way, I like to put on stuff that's more synth based just to relax and give the proper time and space for myself to process this negativity. You seem like someone who really wants to understand the words of a song and use them to process your own feelings. I feel like this really works with songs that touch upon bittersweet emotions in their lyrics like "White Ferarri" and "El Manana" where there's that ever so slight tinge of hope but ultimately relishes in the fact that the world does suck. Sit back, give these tunes and spin, and really give them the space to just feel out your emotions and embrace them.
+                                        </p>
+                                    </>
+                                );
                             }
                         }
                         else{
                             if(profile.age === "classic"){
                                 //Indie + Depression + Feel Emotions + Prefer Lyrics + Hiphop/electronica + Classic
+                                results.push(
+                                    <>
+                                        <p>You're someone who likes the unconventional, the kind of stuff that has a devoted cult following. Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about listening to an artist and knowing "yeah, this is a tight knit but loyal crowd" you know? Anyway, I feel like you're probably not in the best headspace right now. I won't say what the right way of dealing with all that is, but for me, whenever I want to process my feelings in a lower stakes way, I like to put on stuff that's basically ambient soundscapes so I can give the proper time and space for myself to process this negativity. I think you're in the same boat as someone who wants to sit back and really take in and decipher what the words of a song are saying. Since you also prefer the older stuff from artists before the new millennium, I'd point you songs like Tricky's "Overcome" and Moby's "Porcelian" which are less upfront and paint a more abstract yet melancholy picture. Sit back, give these tunes and spin, and really give them the space to just feel out your emotions and embrace them.
+                                        </p>
+                                    </>
+                                );
                             }
                             else{
                                 //Indie + Depression + Feel Emotions + Prefer Lyrics + Hiphop/electronica + Modern
+                                results.push(
+                                <>
+                                    <p>You're someone who likes the unconventional, the kind of stuff that has a devoted cult following. Honestly, hell yeah. No shade to the mainstream hits, I quite like it too, but there's something special about listening to an artist and knowing "yeah, this is a tight knit but loyal crowd" you know? Anyway, I feel like you're probably not in the best headspace right now. I won't say what the right way of dealing with all that is, but for me, whenever I want to process my feelings in a lower stakes way, I like to put on stuff that's more synth and ambient based just to relax and give the proper time and space for myself to process this negativity. I think you're in the same boat as someone who wants to sit back and really take in what the words of a song is saying. You also prefer the newer indie material, and I think you might vibe with the kind of songs that make you feel like you are floating in space like "Tangerine" by Frank Sativa and "Space Song" by Beach House. Just sit back, give these tunes and spin, and really give attention to how those words can make you feel to just embrace those emotions inside of you.
+                                    </p>
+                                </>
+                                );
                             }
                         }
                     }
@@ -970,7 +1009,12 @@ const Results = ({depressionScore, mainstreamScore, musicScore, emotionScore, ag
                             }
                             else{
                                 //Mainstream + Depression + Suppress Emotions + Prefer Instrumental + Hiphop/electronica + Modern
-                                
+                                results.push(
+                                    <>
+                                        <p>I think you'd enjoy the more popular stuff, which hey, no shame at all. These songs are popular for a reason. It seems like you're not really in the best headspace right now, and I'm sorry about that. I won't say what the right way of dealing with all that is, but for me, whenever I want to process my feelings in a lower stakes way, I like to put on stuff that's more groovy just to relax and give the proper time and space for myself to process this negativity. For times like these, I'd put on poppier but subdued R&B. I think you're in the same boat as someone who really wants to mellow out and just feel the vibe of a song. I definitely recommend "Kill Bill" by SZA as an example of that, since its a song where you should probably focus more on vibing out with than relating to the stabby stabby lyrics. Give these a listen, and I feel like they'd be good for just lifting your spirits up for a little while longer.
+                                        </p>
+                                    </>
+                                );
                             }
                         }
                         else{
