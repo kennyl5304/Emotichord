@@ -3,6 +3,7 @@ import Question from './Components/Question';
 import Options from './Components/Options';
 import Results from './Components/Results';
 import { data } from './Components/Data';
+import Typewriter from 'typewriter-effect';
 import happy from './Assets/emotichord.mp3';
 import sad from './Assets/big dasf.mp3';
 import bgm from './Assets/underdogs.mp3';
@@ -102,12 +103,18 @@ const Quiz = () => {
                     <h1>Mental Wellness Recommender</h1>
                     <hr/>
                     <h2>
-                        {questions.question.split("<br/>").map((line, i) => (
-                            <span key={i}>
-                            {line}
-                            <br />
-                            </span>
-                        ))}
+                        <Typewriter
+                            key={questions.question}
+                            options={{delay:35}}
+                            onInit={(typewriter) => {
+                                typewriter
+                                    .typeString(questions.question)
+                                    .callFunction(() => {
+                                        typewriter.stop();
+                                    })
+                                    .start();
+                            }}
+                        />
                     </h2>
                     
                     <ul>
@@ -130,6 +137,14 @@ const Quiz = () => {
                     <h1>Mental Wellness Recommender</h1>
                     <hr/>
                     <h2>{questions.question}</h2>
+                    {questions.question.split("<br/>").map((line, i) => (
+                            <span key={i}>
+                                <Typewriter
+                                    options={{strings:[line],autoStart:true,loop:false,delay:50,deleteSpeed:0}}
+                                />
+                            <br />
+                            </span>
+                        ))}
                     
                     <ul>
                         {questions.options.map((option, index) => (
